@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ARSSlideTransition"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Custom slide view controller transition animation."
 
   s.description  = <<-DESC
@@ -48,7 +48,7 @@ self.navigationController.delegate = self;
 5. Implement `UINavigationControllerDelegate` method, to let iOS know, that custom transition would be used instead of the default one:
 
 ```objective-c
-(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC 
+(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC
 {
 ARSSlideTransition *transition = [ARSSlideTransition new];
 transition.operation = operation;
@@ -130,7 +130,7 @@ ARSSlideTransition is released under the [MIT license](http://opensource.org/lic
   s.author             = { "Yarik Arsenkin" => "info@arsenkin.com" }
   s.social_media_url   = "http://twitter.com/Soberman777"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/soberman/ARSSlideTransition.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/soberman/ARSSlideTransition.git", :tag => "1.0.1" }
   s.source_files  = "Source/ARSSlideTransition.{h,m}"
   s.exclude_files = "Demo/*"
   s.public_header_files = "Source/ARSSlideTransition.h"

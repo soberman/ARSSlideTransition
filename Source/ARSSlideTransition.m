@@ -4,6 +4,7 @@
 //
 //  Created by Yaroslav Arsenkin on 25.08.15.
 //  Copyright (c) 2015 Iaroslav Arsenkin. All rights reserved.
+//  Website: http://arsenkin.com
 //
 //  This source code is licensed under the MIT-style license found in the LICENSE file in the root directory of this source tree.
 
