@@ -7,7 +7,7 @@ This library helps to achieve smooth custom view controller transition animation
 ## Installation
 
 ### CocoaPods
-To install with [CocoaPods](http://cocoapods.org/), copy and paste this in your *.pod* file:
+To install with [CocoaPods](http://cocoapods.org/), copy and paste this in your *Podfile* file:
 
     platform :ios, '7.0'
     pod 'ARSSlideTransition', '~> 1.0'
